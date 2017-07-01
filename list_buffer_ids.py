@@ -1,10 +1,16 @@
 #!/usr/local/bin/python3
+"""
+This will export the profile_ids to a csv_file.
+You can export this CSV into your Alfred List Filter
+"""
 
 import requests
 import json
 import csv
 
-token = '1/89d5142c6bcb4e961c6b38194ec10832'
+# You will need to register your app to get this token https://buffer.com/developers/apps/create
+token = '<YOUR BUFFER TOKEN>'
+
 url = f'https://api.bufferapp.com/1/profiles.json?access_token={token}'
 r = requests.get(url)
 profiles = json.loads(r.text)
