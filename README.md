@@ -1,5 +1,8 @@
 # alfred-buffer
 
+## WARNING:
+**As of October 14, 2019 - Buffer has closed access to their API** This workflow will not be maintained until announcement of a new API.**
+
 This Alfred Workflow allows you to rapidly post to your buffer profiles.
 ![](http://i.imgur.com/u5HDCTv.gif)
 
